@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title> Responsive Navigation Menu </title>
+</head>
+<body>
+
+  <style>
+    /* Style the dropdown button */
+    .menu_more {
+        display: inline-block;
+        position: center;
+        cursor: pointer;
+    }
+
+    /* Style the dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    /* Style the dropdown links */
+    .dropdown-content p {
+        color: black;
+        padding: 12px 16px;
+        margin: 0; /* Remove default margin for <p> */
+        cursor: pointer;
+    }
+
+    /* Change color on hover */
+    .dropdown-content p:hover {
+        background-color: #e25151;
+    }
+
+</style>
+
+
+
+    <div class="main_title">
+    <div class="head_title"> <h1>Responsive Navigation Menu </h1></div>
+    </div>
+
+
+    <div class="navigation_menu"> 
+
+        <div class="menu_wrap">
+
+            <div class="name_title">NIKOLA TODOROVSKI</div>
+
+            <DIV class="menu_left">
+            <div id="6" class="menu_item" > Home </div>
+            <div id="1" class="menu_item"> About </div>
+            <div id="2" class="menu_item"> Portfolio </div>
+            <div id="3"  class="menu_item"> Services </div>
+            <div id="4" class="menu_item"> Gallery </div>
+            <div id="5" class="menu_item"> Contact </div>
+           
+    </div>
+    
+    <div  class="menu_more"><img src="icons/menunew.png"> 
+        <div  class="dropdown-content">
+            <p  id="7" >About</p> 
+            <p id="8">Portfolio</p>
+            <p id="9"> Services</p>
+            <p id="10" >Gallery</p>
+            <p id="11" >Contact</p>
+         </div>
+    
+    </div>
+
+
+       
+
+    </DIV>
+    </div>
+
+    <div class="main_page">
+        <div class="size">
+        <div class="wrapper">
+
+            <div class="paragraph"> 
+            <h2 id="about" >About</h2>
+                
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p></div>
+
+            <div class="paragraph"> 
+            <h2 id="portfolio">Portfolio</h2>
+                
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p></div>
+             
+            <div class="paragraph"> 
+            <h2 id="services" >Services</h2>
+                    
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p></div>
+
+            <div class="paragraph"> 
+            <h2 id="gallery">Gallery</h2>
+                        
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p></div>
+
+            <div class="paragraph"> 
+            <h2 id="contact">Contact</h2>
+                            
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p></div>
+
+       </div>
+     </div>
+    </div>
+
+
+    <div class="footer">
+
+        <div class="social"> 
+
+            <div class="social_wrap">
+                <img src="icons/facebook.svg">
+                <img src="icons/twitter.png">
+                <img src="icons/youtube.svg">
+                <img class="linkedin" onclick="nikolaLinkedin()" src="icons/linkedin.svg">
+                <img class="git" onclick="nikolagit()" src="icons/gitlab.png">
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+   
+    
+
+   <script src="script.js"></script> 
+</body>
+</html>
